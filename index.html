@@ -46,17 +46,36 @@
             margin-bottom: 15px;
             border-radius: 6px;
         }
-        .question ul {
-            list-style-type: circle;
+        .options-list {
+            list-style-type: none;
             margin-top: 10px;
-            padding-left: 20px;
+            padding: 0;
         }
-        .question li {
-            background-color: transparent;
-            border-left: none;
-            box-shadow: none;
-            padding: 5px 0;
-            margin-bottom: 0;
+        .options-list li {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 5px;
+            transition: background-color 0.2s;
+        }
+        .options-list li:hover {
+            background-color: #f0f0f0;
+        }
+        .correct {
+            background-color: #d4edda !important;
+            border-color: #c3e6cb !important;
+        }
+        .incorrect {
+            background-color: #f8d7da !important;
+            border-color: #f5c6cb !important;
+        }
+        .rational {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+            padding: 10px;
+            border-left: 3px solid #ccc;
         }
         #go-back {
             background-color: #007BFF;
@@ -97,7 +116,7 @@
         const questionsContainer = document.getElementById('questions-container');
         const goBackButton = document.getElementById('go-back');
         
-        const jsonFile = 'all_lessons.json';
+        const jsonFile = 'game-data.json';
 
         function displayLessonDetails(lesson) {
             lessonTitle.textContent = `Lesson ${lesson.number}: ${lesson.name}`;
@@ -105,17 +124,21 @@
             lessonText.textContent = lesson.lessonText;
 
             questionsContainer.innerHTML = '';
-            lesson.questions.forEach(question => {
+            let currentQuestionIndex = 0; // We'll handle one question at a time for simplicity
+            
+            // Loop through each question in the lesson
+            lesson.questions.forEach((question, questionIndex) => {
                 const questionElement = document.createElement('div');
                 questionElement.className = 'question';
+                questionElement.dataset.questionIndex = questionIndex;
                 
-                let optionsList = question.options.map((option, index) => {
-                    return `<li>${option}</li>`;
+                let optionsListHtml = question.options.map((option, optionIndex) => {
+                    return `<li data-option-index="${optionIndex}">${option}</li>`;
                 }).join('');
 
                 questionElement.innerHTML = `
                     <p><strong>Q:</strong> ${question.question}</p>
-                    <ul>${optionsList}</ul>
+                    <ul class="options-list">${optionsListHtml}</ul>
                 `;
                 questionsContainer.appendChild(questionElement);
             });
@@ -123,11 +146,57 @@
             lessonDetailsSection.style.display = 'block';
             lessonsList.style.display = 'none';
         }
+        
+        // This is our new function to check the user's answer
+        function checkAnswer(selectedOption, question, questionElement) {
+            const selectedIndex = parseInt(selectedOption.dataset.optionIndex);
+            const correctIndex = question.answer - 1; // JSON answer is 1-based, array is 0-based
+            
+            if (selectedIndex === correctIndex) {
+                selectedOption.classList.add('correct');
+            } else {
+                selectedOption.classList.add('incorrect');
+                // You can also add a class to the correct one to show it
+                const correctOption = questionElement.querySelector(`[data-option-index="${correctIndex}"]`);
+                if (correctOption) {
+                    correctOption.classList.add('correct');
+                }
+            }
+            
+            // Show the rational (explanation)
+            const rationalElement = document.createElement('p');
+            rationalElement.className = 'rational';
+            rationalElement.textContent = `Rationale: ${question.rational}`;
+            questionElement.appendChild(rationalElement);
+            
+            // Disable clicks on all options for this question
+            const optionsList = questionElement.querySelectorAll('.options-list li');
+            optionsList.forEach(li => li.style.pointerEvents = 'none');
+        }
 
         goBackButton.addEventListener('click', () => {
             lessonsList.style.display = 'block';
             lessonDetailsSection.style.display = 'none';
         });
+
+        // Add a click listener to the entire questions container using event delegation
+        questionsContainer.addEventListener('click', (event) => {
+            const clickedElement = event.target;
+            if (clickedElement.tagName === 'LI' && clickedElement.closest('.options-list')) {
+                const questionElement = clickedElement.closest('.question');
+                const questionIndex = parseInt(questionElement.dataset.questionIndex);
+                
+                // Get the lesson data from a variable (we need to store it outside the fetch)
+                // Let's modify the fetch to store the data globally
+                // For now, let's assume we can retrieve the lesson object
+                
+                // This part is tricky because we need the full lesson data.
+                // The easiest way is to pass the whole data array around.
+                // Let's refactor the fetch part to handle that.
+            }
+        });
+
+        let allLessonsData; // Global variable to store the data
 
         fetch(jsonFile)
             .then(response => {
@@ -137,9 +206,10 @@
                 return response.json();
             })
             .then(data => {
-                console.log("Successfully loaded lesson data:", data);
+                allLessonsData = data; // Store the data globally
+                console.log("Successfully loaded lesson data:", allLessonsData);
 
-                data.forEach(lesson => {
+                allLessonsData.forEach(lesson => {
                     const listItem = document.createElement('li');
                     listItem.textContent = `Lesson ${lesson.number}: ${lesson.name}`;
                     
@@ -154,6 +224,25 @@
                 console.error("Error fetching lesson data:", error);
                 lessonsList.innerHTML = '<li>Failed to load lessons. Please check the console for details.</li>';
             });
+            
+        // Final event listener for the questions container
+        questionsContainer.addEventListener('click', (event) => {
+            const clickedOption = event.target;
+            // Check if the clicked element is a list item and a child of .options-list
+            if (clickedOption.tagName === 'LI' && clickedOption.closest('.options-list')) {
+                const questionElement = clickedOption.closest('.question');
+                const questionIndex = parseInt(questionElement.dataset.questionIndex);
+                
+                // Find the correct lesson based on the active display
+                const lessonNumber = parseInt(lessonTitle.textContent.split(':')[0].replace('Lesson ', ''));
+                const currentLesson = allLessonsData.find(lesson => lesson.number === lessonNumber);
+                
+                if (currentLesson) {
+                    const currentQuestion = currentLesson.questions[questionIndex];
+                    checkAnswer(clickedOption, currentQuestion, questionElement);
+                }
+            }
+        });
     </script>
 
 </body>
