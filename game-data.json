@@ -1,0 +1,1850 @@
+{
+  "lessons": [
+    {
+      "number": 1,
+      "name": "Wellness Quest Kickoff",
+      "description": "Start exploring healthy steps for your body and mind.",
+      "lessonText": "Today we’ll learn about water, rest, calm breaths, playful moves, and listening to hunger. Each tiny step helps your body feel safe and strong. You can try one at a time and see how it feels.",
+      "quest": "WellnessQuest",
+      "language": "en",
+      "forRole": "child",
+      "minAge": 6,
+      "maxAge": 12,
+      "xp_total": 50,
+      "coins_per_correct": 10,
+      "lesson_url_en": "",
+      "lesson_url_es": "",
+      "questions": [
+        {
+          "question": "What does water do for your body?",
+          "type": "mcq",
+          "options": [
+            "Makes you never sleep",
+            "Keeps you hydrated",
+            "Turns you into a robot",
+            "Stops you from moving"
+          ],
+          "answer": 2,
+          "rational": "Water keeps your body hydrated and working well."
+        },
+        {
+          "question": "Why is sleep important?",
+          "type": "mcq",
+          "options": [
+            "It keeps you from playing",
+            "It helps your body rest and grow",
+            "It freezes time",
+            "It makes you skip meals"
+          ],
+          "answer": 2,
+          "rational": "Sleep helps your body rest and grow strong."
+        },
+        {
+          "question": "What can calm your mind when worried?",
+          "type": "mcq",
+          "options": [
+            "Staying awake all night",
+            "Skipping water",
+            "Counting belly breaths",
+            "Shouting loudly"
+          ],
+          "answer": 3,
+          "rational": "Counting belly breaths helps calm your body and mind."
+        },
+        {
+          "question": "Which is movement as play?",
+          "type": "mcq",
+          "options": [
+            "Holding your breath",
+            "Dancing to music",
+            "Laying down forever",
+            "Sitting still all day"
+          ],
+          "answer": 2,
+          "rational": "Dancing to music is a playful way to move."
+        },
+        {
+          "question": "What is a sign you are hungry?",
+          "type": "mcq",
+          "options": [
+            "Shoes falling off",
+            "Hair turning blue",
+            "Being invisible",
+            "Stomach growling"
+          ],
+          "answer": 4,
+          "rational": "Stomach growling is a body signal for hunger."
+        }
+      ],
+      "keyTakeaways": "• Wellness is about small daily steps. • Water, rest, play, calm, and food help you feel good.",
+      "feedback": {
+        "high_score": {
+          "threshold": 5,
+          "message": "You’re starting strong—great job noticing healthy choices!"
+        },
+        "medium_score": {
+          "threshold": 3,
+          "message": "Nice effort—keep practicing these tiny steps every day."
+        },
+        "low_score": {
+          "threshold": 0,
+          "message": "Good start—try one small step like a sip of water or a calm breath today."
+        }
+      }
+    },
+    {
+      "number": 2,
+      "name": "Energy Boosters",
+      "description": "Learn how small habits give your body more energy.",
+      "lessonText": "Energy comes from sleep, food, water, movement, and calm moments. You can mix them in your day to feel brighter and stronger. Even one small change helps your energy rise.",
+      "quest": "WellnessQuest",
+      "language": "en",
+      "forRole": "child",
+      "minAge": 6,
+      "maxAge": 12,
+      "xp_total": 50,
+      "coins_per_correct": 10,
+      "lesson_url_en": "",
+      "lesson_url_es": "",
+      "questions": [
+        {
+          "question": "When you feel thirsty, what helps?",
+          "type": "mcq",
+          "options": [
+            "Holding your breath",
+            "Ignoring it",
+            "Drinking water",
+            "Jumping all night"
+          ],
+          "answer": 3,
+          "rational": "Drinking water helps when you’re thirsty."
+        },
+        {
+          "question": "How many hours of sleep do kids usually need?",
+          "type": "mcq",
+          "options": [
+            "20 hours",
+            "1 hour",
+            "9–12 hours",
+            "3 hours"
+          ],
+          "answer": 3,
+          "rational": "Kids need about 9–12 hours of sleep to feel rested."
+        },
+        {
+          "question": "What helps you calm before a test?",
+          "type": "mcq",
+          "options": [
+            "Slow breaths",
+            "Staying up late",
+            "Skipping food",
+            "Drinking soda"
+          ],
+          "answer": 1,
+          "rational": "Slow breaths help calm nerves before a test."
+        },
+        {
+          "question": "What playful move can wake you up?",
+          "type": "mcq",
+          "options": [
+            "Not drinking water",
+            "Sleeping in class",
+            "Jumping jacks",
+            "Staying frozen"
+          ],
+          "answer": 3,
+          "rational": "Jumping jacks are a fun way to wake your body up."
+        },
+        {
+          "question": "Listening to hunger means:",
+          "type": "mcq",
+          "options": [
+            "Eating when your body feels hungry",
+            "Ignoring your stomach",
+            "Never eating snacks",
+            "Eating when not hungry"
+          ],
+          "answer": 1,
+          "rational": "Intuitive eating means noticing when you’re hungry and eating then."
+        }
+      ],
+      "keyTakeaways": "• Energy comes from water, food, rest, and play. • Small choices can help you feel awake and strong.",
+      "feedback": {
+        "high_score": {
+          "threshold": 5,
+          "message": "You understand how to fuel your energy—awesome!"
+        },
+        "medium_score": {
+          "threshold": 3,
+          "message": "Good job! Try one energy helper today like an early bedtime."
+        },
+        "low_score": {
+          "threshold": 0,
+          "message": "You’re learning—start with one water sip or an early sleep tonight."
+        }
+      }
+    },
+    {
+      "number": 3,
+      "name": "Daily Reset",
+      "description": "Explore how to recharge your body and mind each day.",
+      "lessonText": "Every day your body needs a reset. Rest, food, movement, water, and calm breaths all work like buttons to recharge you. Try using one reset button when you feel low energy or stress.",
+      "quest": "WellnessQuest",
+      "language": "en",
+      "forRole": "child",
+      "minAge": 6,
+      "maxAge": 12,
+      "xp_total": 50,
+      "coins_per_correct": 10,
+      "lesson_url_en": "",
+      "lesson_url_es": "",
+      "questions": [
+        {
+          "question": "Which drink resets your body best?",
+          "type": "mcq",
+          "options": [
+            "Soda",
+            "Water",
+            "Juice with lots of sugar",
+            "Energy drink"
+          ],
+          "answer": 2,
+          "rational": "Water is the best reset drink for your body."
+        },
+        {
+          "question": "A short nap or good night sleep helps you:",
+          "type": "mcq",
+          "options": [
+            "Stay tired",
+            "Feel refreshed",
+            "Glow in the dark",
+            "Forget everything"
+          ],
+          "answer": 2,
+          "rational": "Rest helps you feel refreshed."
+        },
+        {
+          "question": "What helps calm before bed?",
+          "type": "mcq",
+          "options": [
+            "Jumping on the bed",
+            "Reading quietly",
+            "Drinking soda",
+            "Playing loud video games"
+          ],
+          "answer": 2,
+          "rational": "Reading quietly helps calm your body for sleep."
+        },
+        {
+          "question": "Which is movement as play?",
+          "type": "mcq",
+          "options": [
+            "Only lifting heavy things",
+            "Tag with friends",
+            "Never moving",
+            "Staying still all day"
+          ],
+          "answer": 2,
+          "rational": "Tag with friends is movement as play."
+        },
+        {
+          "question": "What’s a gentle sign you are full?",
+          "type": "mcq",
+          "options": [
+            "Your hair grows longer",
+            "Your shoes disappear",
+            "Your stomach feels comfortable",
+            "You are invisible"
+          ],
+          "answer": 3,
+          "rational": "Feeling comfortable in your stomach is a sign you are full."
+        }
+      ],
+      "keyTakeaways": "• Rest and water reset your body. • Calm, play, and listening to hunger help recharge your day.",
+      "feedback": {
+        "high_score": {
+          "threshold": 5,
+          "message": "Great reset skills—you know how to refresh your body and mind!"
+        },
+        "medium_score": {
+          "threshold": 3,
+          "message": "Nice! Try one reset step tonight like a calm breath before bed."
+        },
+        "low_score": {
+          "threshold": 0,
+          "message": "You’re learning—start with a sip of water or one calm stretch."
+        }
+      }
+    },
+    {
+      "number": 4,
+      "name": "Body Signals",
+      "description": "Notice the signals your body gives every day.",
+      "lessonText": "Your body talks through signals like thirst, sleepiness, hunger, and stress. When you listen, you can take tiny steps to feel better. Paying attention makes it easier to care for yourself.",
+      "quest": "WellnessQuest",
+      "language": "en",
+      "forRole": "child",
+      "minAge": 6,
+      "maxAge": 12,
+      "xp_total": 50,
+      "coins_per_correct": 10,
+      "lesson_url_en": "",
+      "lesson_url_es": "",
+      "questions": [
+        {
+          "question": "A dry mouth means you might need:",
+          "type": "mcq",
+          "options": [
+            "Loud music",
+            "Water",
+            "More homework",
+            "More TV"
+          ],
+          "answer": 2,
+          "rational": "A dry mouth is a signal for thirst."
+        },
+        {
+          "question": "Yawning a lot means you need:",
+          "type": "mcq",
+          "options": [
+            "More candy",
+            "Sleep",
+            "Skipping breakfast",
+            "A video game"
+          ],
+          "answer": 2,
+          "rational": "Yawning is a signal you need sleep."
+        },
+        {
+          "question": "A tight chest might mean you need:",
+          "type": "mcq",
+          "options": [
+            "Shouting louder",
+            "Ignoring it",
+            "Running faster",
+            "A calm breath"
+          ],
+          "answer": 4,
+          "rational": "A calm breath can help when you feel tight in your chest."
+        },
+        {
+          "question": "Smiling while moving shows:",
+          "type": "mcq",
+          "options": [
+            "You are too tired",
+            "Movement is wrong",
+            "Smiling while moving means it feels fun",
+            "You should stop moving"
+          ],
+          "answer": 3,
+          "rational": "Smiling while moving means it feels fun."
+        },
+        {
+          "question": "Stomach rumbling is a signal of:",
+          "type": "mcq",
+          "options": [
+            "Shoes shrinking",
+            "Magic powers",
+            "Hunger",
+            "Hair glowing"
+          ],
+          "answer": 3,
+          "rational": "A rumbling stomach is a sign of hunger."
+        }
+      ],
+      "keyTakeaways": "• Your body sends signals for thirst, sleep, calm, play, and hunger. • Listening helps you choose tiny steps to care for yourself.",
+      "feedback": {
+        "high_score": {
+          "threshold": 5,
+          "message": "You’re a signal spotter—great job listening to your body!"
+        },
+        "medium_score": {
+          "threshold": 3,
+          "message": "Nice effort! Keep practicing noticing one signal at a time."
+        },
+        "low_score": {
+          "threshold": 0,
+          "message": "You’re learning—today try noticing one body signal like thirst."
+        }
+      }
+    },
+    {
+      "number": 5,
+      "name": "Daily Wellness Mix",
+      "description": "See how all five healthy steps can fit in your day.",
+      "lessonText": "Your wellness mix has five parts: water, sleep, calm, movement, and food. Mixing them makes your day smoother. Even adding one piece makes a difference.",
+      "quest": "WellnessQuest",
+      "language": "en",
+      "forRole": "child",
+      "minAge": 6,
+      "maxAge": 12,
+      "xp_total": 50,
+      "coins_per_correct": 10,
+      "lesson_url_en": "",
+      "lesson_url_es": "",
+      "questions": [
+        {
+          "question": "Which drink is best for hydration?",
+          "type": "mcq",
+          "options": [
+            "Candy soda",
+            "Energy drink",
+            "Water",
+            "Milkshake"
+          ],
+          "answer": 3,
+          "rational": "Water is the healthiest way to stay hydrated."
+        },
+        {
+          "question": "Going to bed early helps you:",
+          "type": "mcq",
+          "options": [
+            "Grow wings",
+            "Forget your name",
+            "Feel rested",
+            "Skip meals"
+          ],
+          "answer": 3,
+          "rational": "Going to bed early helps you feel rested."
+        },
+        {
+          "question": "What calms you before homework?",
+          "type": "mcq",
+          "options": [
+            "Yelling at friends",
+            "Playing too late",
+            "Skipping lunch",
+            "A calm breath"
+          ],
+          "answer": 4,
+          "rational": "A calm breath helps you feel ready before homework."
+        },
+        {
+          "question": "Which is a playful move?",
+          "type": "mcq",
+          "options": [
+            "Sitting still",
+            "Sleeping all day",
+            "Staring at the wall",
+            "Hopscotch"
+          ],
+          "answer": 4,
+          "rational": "Hopscotch is a fun playful move."
+        },
+        {
+          "question": "If your tummy feels comfortable, it means:",
+          "type": "mcq",
+          "options": [
+            "Your hair turned green",
+            "You need no air",
+            "You are invisible",
+            "You are full"
+          ],
+          "answer": 4,
+          "rational": "A comfortable tummy means you are full."
+        }
+      ],
+      "keyTakeaways": "• Your day feels better with water, rest, calm, movement, and food. • Even one healthy step makes a difference.",
+      "feedback": {
+        "high_score": {
+          "threshold": 5,
+          "message": "Great mixing—you know how to balance wellness in your day!"
+        },
+        "medium_score": {
+          "threshold": 3,
+          "message": "Nice! Try adding one wellness piece to your mix today."
+        },
+        "low_score": {
+          "threshold": 0,
+          "message": "You’re learning—start by adding one helper like water or rest."
+        }
+      }
+    }
+  ]
+}
+[
+  {
+    "number": 6,
+    "name": "Healthy Day Starters",
+    "description": "Discover small choices that start your day strong.",
+    "lessonText": "Morning habits like water, breakfast, calm breaths, and movement help wake your body. A strong start makes the rest of your day easier.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What’s a healthy first drink in the morning?",
+        "type": "mcq",
+        "options": [
+          "Energy drink",
+          "Water",
+          "Milkshake",
+          "Candy soda"
+        ],
+        "answer": 2,
+        "rational": "Water is the best way to rehydrate after sleep."
+      },
+      {
+        "question": "What helps you feel ready for school?",
+        "type": "mcq",
+        "options": [
+          "Getting a good night’s rest",
+          "Skipping sleep",
+          "Staying up late",
+          "Watching TV all night"
+        ],
+        "answer": 1,
+        "rational": "A good night’s rest helps you feel ready for school."
+      },
+      {
+        "question": "What can you do to feel calm before class?",
+        "type": "mcq",
+        "options": [
+          "Skipping breakfast",
+          "Running in circles",
+          "Taking a calm breath",
+          "Yelling loudly"
+        ],
+        "answer": 3,
+        "rational": "A calm breath helps steady your body before class."
+      },
+      {
+        "question": "Which move can wake up your body in the morning?",
+        "type": "mcq",
+        "options": [
+          "Sitting frozen",
+          "Stretching arms wide",
+          "Ignoring movement",
+          "Lying still all day"
+        ],
+        "answer": 2,
+        "rational": "Stretching helps your body wake up."
+      },
+      {
+        "question": "What is a mindful breakfast choice?",
+        "type": "mcq",
+        "options": [
+          "Eating while running",
+          "Ignoring hunger",
+          "Eating when not hungry",
+          "Eating when hungry"
+        ],
+        "answer": 4,
+        "rational": "Listening to hunger helps you eat mindfully."
+      }
+    ],
+    "keyTakeaways": "• A strong morning includes rest, water, calm, and food. • Tiny steps in the morning set up your whole day.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "You’re ready to start strong every day—amazing!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice work—try one healthy starter tomorrow morning."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good try—begin with one sip of water or a stretch tomorrow."
+      }
+    }
+  },
+  {
+    "number": 7,
+    "name": "Recharge Your Body",
+    "description": "Learn ways to keep your energy steady during the day.",
+    "lessonText": "Your body needs breaks for water, food, calm, and movement to keep energy up. When you recharge, you can focus, play, and feel better.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What’s a good drink to recharge with?",
+        "type": "mcq",
+        "options": [
+          "Soda",
+          "Juice with lots of sugar",
+          "Water",
+          "Energy drink"
+        ],
+        "answer": 3,
+        "rational": "Water recharges your body best."
+      },
+      {
+        "question": "When you feel tired in the day, what might help?",
+        "type": "mcq",
+        "options": [
+          "Take a nap",
+          "Skipping sleep",
+          "Staring at the wall",
+          "Watching TV late"
+        ],
+        "answer": 1,
+        "rational": "A nap helps your body recharge."
+      },
+      {
+        "question": "What calms your body at recess?",
+        "type": "mcq",
+        "options": [
+          "Skipping lunch",
+          "Holding your breath",
+          "Closing eyes and breathing",
+          "Yelling at friends"
+        ],
+        "answer": 3,
+        "rational": "Closing eyes and breathing helps calm your body."
+      },
+      {
+        "question": "Which playful move recharges you?",
+        "type": "mcq",
+        "options": [
+          "Sitting frozen",
+          "Ignoring friends",
+          "Playing tag",
+          "Standing still"
+        ],
+        "answer": 3,
+        "rational": "Playing tag is a playful recharge."
+      },
+      {
+        "question": "What does listening to your stomach tell you?",
+        "type": "mcq",
+        "options": [
+          "When your stomach feels hungry or full",
+          "When to run faster",
+          "When to ignore food",
+          "What TV show to watch"
+        ],
+        "answer": 1,
+        "rational": "Your stomach helps you know when you are hungry or full."
+      }
+    ],
+    "keyTakeaways": "• Recharging keeps energy steady. • Water, naps, calm, and food help you feel better.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great job—you know how to recharge your body!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Good work—try one recharge step during school today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "You’re learning—start with a sip of water at lunch."
+      }
+    }
+  },
+  {
+    "number": 8,
+    "name": "Balance Your Day",
+    "description": "Find ways to balance play, rest, and food choices.",
+    "lessonText": "Balance means mixing water, sleep, play, calm, and food in your day. When one is missing, your body may feel off. Balance helps you feel steady and happy.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "If you feel thirsty, what’s the best choice?",
+        "type": "mcq",
+        "options": [
+          "Ignoring it",
+          "Candy soda",
+          "Water",
+          "More TV"
+        ],
+        "answer": 3,
+        "rational": "Water is the best choice when thirsty."
+      },
+      {
+        "question": "Why do kids need sleep?",
+        "type": "mcq",
+        "options": [
+          "It helps bodies grow",
+          "It stops you from eating",
+          "It keeps you from playing",
+          "It makes you glow in the dark"
+        ],
+        "answer": 1,
+        "rational": "Sleep helps bodies grow strong."
+      },
+      {
+        "question": "What helps balance feelings?",
+        "type": "mcq",
+        "options": [
+          "Playing too late",
+          "Holding your breath",
+          "Skipping meals",
+          "Taking calm breaths"
+        ],
+        "answer": 4,
+        "rational": "Calm breaths balance your feelings."
+      },
+      {
+        "question": "Which is a balanced movement choice?",
+        "type": "mcq",
+        "options": [
+          "Dancing with friends",
+          "Not moving all day",
+          "Laying frozen",
+          "Ignoring playtime"
+        ],
+        "answer": 1,
+        "rational": "Dancing with friends is balanced movement."
+      },
+      {
+        "question": "When should you stop eating?",
+        "type": "mcq",
+        "options": [
+          "When your shoes fall off",
+          "When your hair turns blue",
+          "When your stomach feels full",
+          "When your friend says so"
+        ],
+        "answer": 3,
+        "rational": "Stop eating when your stomach feels full."
+      }
+    ],
+    "keyTakeaways": "• Balance means mixing water, sleep, play, calm, and food. • Balance helps your body feel steady and happy.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "You know how to balance your day—great job!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Good work—try balancing one more part of your day."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "You’re learning—start by adding one balance step like rest or water."
+      }
+    }
+  },
+  {
+    "number": 9,
+    "name": "Wellness Checkpoints",
+    "description": "Learn to pause and check how your body feels.",
+    "lessonText": "Wellness checkpoints are little pauses in your day. You ask: Am I thirsty? Sleepy? Hungry? Do I need calm or play? These checks help you make better choices.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "If your lips feel dry, what’s the checkpoint answer?",
+        "type": "mcq",
+        "options": [
+          "Watch more TV",
+          "Eat candy",
+          "Ignore it",
+          "Take a sip of water"
+        ],
+        "answer": 4,
+        "rational": "Dry lips mean you need water."
+      },
+      {
+        "question": "If you feel very sleepy in class, what should you do later?",
+        "type": "mcq",
+        "options": [
+          "Stay up later",
+          "Take a nap or sleep earlier",
+          "Play video games all night",
+          "Eat candy"
+        ],
+        "answer": 2,
+        "rational": "Naps or early sleep help with daytime sleepiness."
+      },
+      {
+        "question": "If you feel nervous before a game, what can you try?",
+        "type": "mcq",
+        "options": [
+          "Take calm breaths",
+          "Run faster",
+          "Skip eating",
+          "Shout loudly"
+        ],
+        "answer": 1,
+        "rational": "Calm breaths help when nervous."
+      },
+      {
+        "question": "If you haven’t moved in hours, what’s a good checkpoint step?",
+        "type": "mcq",
+        "options": [
+          "Ignore movement",
+          "Play catch",
+          "Keep sitting",
+          "Lay down forever"
+        ],
+        "answer": 2,
+        "rational": "Play catch is a good way to add movement."
+      },
+      {
+        "question": "If your tummy is full, what should you do?",
+        "type": "mcq",
+        "options": [
+          "Stop eating",
+          "Eat more anyway",
+          "Ignore fullness",
+          "Ask a friend what to do"
+        ],
+        "answer": 1,
+        "rational": "Stop eating when you feel full."
+      }
+    ],
+    "keyTakeaways": "• Wellness checkpoints help you notice your needs. • Pausing lets you choose better steps for your body.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great job using checkpoints—you’re a body listener!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice effort—try one checkpoint today like checking thirst."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "You’re learning—start with one checkpoint like noticing sleepiness."
+      }
+    }
+  },
+  {
+    "number": 10,
+    "name": "Feel-Good Habits",
+    "description": "Explore daily habits that help you feel your best.",
+    "lessonText": "Feel-good habits are small things like water sips, good sleep, calm breaths, playful moves, and eating when hungry. Each one helps your body feel its best.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "Which habit helps your body most?",
+        "type": "mcq",
+        "options": [
+          "Skipping water",
+          "Ignoring thirst",
+          "Taking sips of water",
+          "Only drinking soda"
+        ],
+        "answer": 3,
+        "rational": "Sips of water are a healthy habit."
+      },
+      {
+        "question": "What’s a good bedtime habit?",
+        "type": "mcq",
+        "options": [
+          "Staying awake all night",
+          "Watching loud shows",
+          "Jumping on the bed",
+          "Going to sleep on time"
+        ],
+        "answer": 4,
+        "rational": "Going to sleep on time is a healthy bedtime habit."
+      },
+      {
+        "question": "What habit calms your brain?",
+        "type": "mcq",
+        "options": [
+          "Skipping meals",
+          "Taking calm breaths",
+          "Staying still forever",
+          "Shouting loudly"
+        ],
+        "answer": 2,
+        "rational": "Calm breaths help calm your brain."
+      },
+      {
+        "question": "What’s a feel-good move?",
+        "type": "mcq",
+        "options": [
+          "Ignoring playtime",
+          "Sitting frozen",
+          "Skipping with friends",
+          "Laying still all day"
+        ],
+        "answer": 3,
+        "rational": "Skipping is a playful feel-good move."
+      },
+      {
+        "question": "Which eating habit is mindful?",
+        "type": "mcq",
+        "options": [
+          "Always eating snacks",
+          "Eating only when friends say so",
+          "Noticing hunger and fullness",
+          "Ignoring your tummy"
+        ],
+        "answer": 3,
+        "rational": "Mindful eating means noticing hunger and fullness."
+      }
+    ],
+    "keyTakeaways": "• Feel-good habits are water, rest, calm, play, and food. • Small habits make your body and mind stronger.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "You know your feel-good habits—keep using them daily!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice! Try adding one new feel-good habit tomorrow."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "You’re learning—start with one feel-good habit today."
+      }
+    }
+  }
+]
+[
+  {
+    "number": 11,
+    "name": "Smart Choices",
+    "description": "Practice choosing healthy options during your day.",
+    "lessonText": "Every day you make choices: water or soda, sleep or screens, calm or stress, play or sit. Small smart choices make a big difference for your wellness.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "Which is the smartest drink for your body?",
+        "type": "mcq",
+        "options": [
+          "Soda",
+          "Energy drink",
+          "Water",
+          "Milkshake"
+        ],
+        "answer": 3,
+        "rational": "Water is the smartest drink choice."
+      },
+      {
+        "question": "What’s a smart bedtime choice?",
+        "type": "mcq",
+        "options": [
+          "Jumping on the bed",
+          "Turning off screens early",
+          "Loud music at night",
+          "Staying up late"
+        ],
+        "answer": 2,
+        "rational": "Turning off screens helps you sleep better."
+      },
+      {
+        "question": "What helps your mind feel calm?",
+        "type": "mcq",
+        "options": [
+          "Skipping lunch",
+          "Taking deep breaths",
+          "Running in circles",
+          "Yelling loudly"
+        ],
+        "answer": 2,
+        "rational": "Deep breaths calm your body and mind."
+      },
+      {
+        "question": "Which playful choice is smart for wellness?",
+        "type": "mcq",
+        "options": [
+          "Sitting still all day",
+          "Playing catch outside",
+          "Ignoring friends",
+          "Laying frozen"
+        ],
+        "answer": 2,
+        "rational": "Catch is a fun way to play and move."
+      },
+      {
+        "question": "Which is a smart way to eat?",
+        "type": "mcq",
+        "options": [
+          "Only eating snacks",
+          "Stopping when full",
+          "Eating when not hungry",
+          "Ignoring your tummy"
+        ],
+        "answer": 2,
+        "rational": "Stopping when full is mindful eating."
+      }
+    ],
+    "keyTakeaways": "• Smart choices are small and simple. • Picking water, rest, calm, play, and food helps you feel strong.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Awesome—you know how to pick smart choices!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try one new smart choice today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good try—start with one smart choice like water or rest."
+      }
+    }
+  },
+  {
+    "number": 12,
+    "name": "Recharge at Night",
+    "description": "Find ways to rest and recharge while you sleep.",
+    "lessonText": "Sleep is your body’s recharge time. Good habits like water, calm, and stopping screens early help you sleep better and wake stronger.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What drink helps before bedtime?",
+        "type": "mcq",
+        "options": [
+          "Candy juice",
+          "Soda",
+          "Energy drink",
+          "Water"
+        ],
+        "answer": 4,
+        "rational": "Water is gentle before bedtime."
+      },
+      {
+        "question": "What helps you sleep better?",
+        "type": "mcq",
+        "options": [
+          "Eating candy late",
+          "Turning off screens early",
+          "Running around",
+          "Yelling at night"
+        ],
+        "answer": 2,
+        "rational": "Turning off screens early helps your body rest."
+      },
+      {
+        "question": "What calms your brain before sleep?",
+        "type": "mcq",
+        "options": [
+          "Jumping on the bed",
+          "Playing loud video games",
+          "Drinking soda",
+          "Reading quietly"
+        ],
+        "answer": 4,
+        "rational": "Reading quietly is calming before sleep."
+      },
+      {
+        "question": "Which playful move can relax muscles?",
+        "type": "mcq",
+        "options": [
+          "Sitting frozen",
+          "Ignoring movement",
+          "Gentle stretching",
+          "Standing still all night"
+        ],
+        "answer": 3,
+        "rational": "Gentle stretching helps muscles relax."
+      },
+      {
+        "question": "What’s a mindful bedtime snack choice?",
+        "type": "mcq",
+        "options": [
+          "Something light if hungry",
+          "Eating when not hungry",
+          "Eating lots of candy",
+          "Ignoring hunger"
+        ],
+        "answer": 1,
+        "rational": "A light snack is mindful if you’re hungry."
+      }
+    ],
+    "keyTakeaways": "• Good sleep helps your body recharge. • Calm and light choices make sleep easier.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great—you know how to recharge with sleep!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try one new bedtime habit tonight."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good start—try a calm breath before bed tonight."
+      }
+    }
+  },
+  {
+    "number": 13,
+    "name": "Calm Power",
+    "description": "Learn how calm helps you feel strong inside.",
+    "lessonText": "Calm power means using breaths, stretches, and kind words. These tools help you handle stress and feel safe in your body.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What drink keeps your body calm?",
+        "type": "mcq",
+        "options": [
+          "Water",
+          "Candy juice",
+          "Energy drink",
+          "Soda"
+        ],
+        "answer": 1,
+        "rational": "Water supports a calm body."
+      },
+      {
+        "question": "What bedtime habit adds calm?",
+        "type": "mcq",
+        "options": [
+          "Loud TV shows",
+          "Gentle stretching",
+          "Staying up late",
+          "Jumping on the bed"
+        ],
+        "answer": 2,
+        "rational": "Stretching adds calm before bed."
+      },
+      {
+        "question": "Which thought adds calm power?",
+        "type": "mcq",
+        "options": [
+          "I’m the worst",
+          "I can try",
+          "Never ask for help",
+          "Feelings are bad"
+        ],
+        "answer": 2,
+        "rational": "Saying 'I can try' supports calm confidence."
+      },
+      {
+        "question": "What playful move can calm you?",
+        "type": "mcq",
+        "options": [
+          "Yoga poses",
+          "Sitting frozen",
+          "Standing stiff",
+          "Lying still all day"
+        ],
+        "answer": 1,
+        "rational": "Yoga poses help calm your body."
+      },
+      {
+        "question": "What eating choice feels calm?",
+        "type": "mcq",
+        "options": [
+          "Eating super fast",
+          "Ignoring hunger",
+          "Always eating snacks",
+          "Eating slowly"
+        ],
+        "answer": 4,
+        "rational": "Eating slowly helps calm your body."
+      }
+    ],
+    "keyTakeaways": "• Calm power uses breaths, stretches, and kind words. • Calm makes your body and brain stronger.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "You’re a calm power champ—awesome work!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try a calm power tool today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good try—practice one calm breath when stressed."
+      }
+    }
+  },
+  {
+    "number": 14,
+    "name": "Playful Wellness",
+    "description": "Find how play makes your body healthier.",
+    "lessonText": "Movement as play is fun and good for your body. Dancing, jumping, and games make you strong and happy while feeling like play.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What drink helps you move longer?",
+        "type": "mcq",
+        "options": [
+          "Soda",
+          "Water",
+          "Energy drink",
+          "Candy juice"
+        ],
+        "answer": 2,
+        "rational": "Water helps your body move longer."
+      },
+      {
+        "question": "What helps your body recover after play?",
+        "type": "mcq",
+        "options": [
+          "Watching TV all night",
+          "Skipping bedtime",
+          "Good sleep",
+          "Staying up late"
+        ],
+        "answer": 3,
+        "rational": "Sleep helps your body recover."
+      },
+      {
+        "question": "What helps your brain focus during play?",
+        "type": "mcq",
+        "options": [
+          "Skipping meals",
+          "Calm breaths",
+          "Holding your breath",
+          "Yelling loudly"
+        ],
+        "answer": 2,
+        "rational": "Calm breaths help you focus while playing."
+      },
+      {
+        "question": "Which move is playful wellness?",
+        "type": "mcq",
+        "options": [
+          "Sitting frozen",
+          "Dancing with friends",
+          "Lying still all day",
+          "Ignoring movement"
+        ],
+        "answer": 2,
+        "rational": "Dancing with friends is playful wellness."
+      },
+      {
+        "question": "What eating choice supports play?",
+        "type": "mcq",
+        "options": [
+          "Eating balanced meals",
+          "Always eating candy",
+          "Ignoring hunger",
+          "Eating too fast"
+        ],
+        "answer": 1,
+        "rational": "Balanced meals give energy for play."
+      }
+    ],
+    "keyTakeaways": "• Play makes movement fun and strong. • Rest, calm, and food support play.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "You’re a playful wellness star—keep it up!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice work—try adding one more playful move today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good try—start with a short game or dance today."
+      }
+    }
+  },
+  {
+    "number": 15,
+    "name": "Listen to Your Body",
+    "description": "Practice paying attention to signals like hunger, thirst, and sleepiness.",
+    "lessonText": "Your body gives signals like yawns, rumbles, and yawns. Listening helps you choose steps like water, food, rest, or calm breaths.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "If your mouth feels dry, what do you need?",
+        "type": "mcq",
+        "options": [
+          "Eat candy",
+          "Water",
+          "Ignore it",
+          "Watch TV"
+        ],
+        "answer": 2,
+        "rational": "Dry mouth is a signal you need water."
+      },
+      {
+        "question": "If you yawn a lot, what is your body asking for?",
+        "type": "mcq",
+        "options": [
+          "Sleep",
+          "More games",
+          "Candy",
+          "Noise"
+        ],
+        "answer": 1,
+        "rational": "Yawning is a sign you need sleep."
+      },
+      {
+        "question": "If your stomach feels tight, what could help?",
+        "type": "mcq",
+        "options": [
+          "Skipping meals",
+          "Taking calm breaths",
+          "Running faster",
+          "Yelling"
+        ],
+        "answer": 2,
+        "rational": "Calm breaths can help relax tightness."
+      },
+      {
+        "question": "If you feel restless, what playful step could help?",
+        "type": "mcq",
+        "options": [
+          "Lying frozen",
+          "Jumping jacks",
+          "Ignoring it",
+          "Sitting still"
+        ],
+        "answer": 2,
+        "rational": "Jumping jacks help release restlessness."
+      },
+      {
+        "question": "If your tummy feels comfy and full, what should you do?",
+        "type": "mcq",
+        "options": [
+          "Stop eating",
+          "Keep eating anyway",
+          "Ask a friend",
+          "Eat candy"
+        ],
+        "answer": 1,
+        "rational": "A comfortable tummy means it’s time to stop eating."
+      }
+    ],
+    "keyTakeaways": "• Your body gives signals like thirst, hunger, and tiredness. • Listening helps you make better choices.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "You’re a body listener—great work!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try listening to one more body signal today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good start—practice noticing one signal like thirst today."
+      }
+    }
+  }
+]
+[
+  {
+    "number": 16,
+    "name": "Wellness Helpers",
+    "description": "Discover simple helpers that keep your body feeling good.",
+    "lessonText": "Helpers are small choices like water, rest, calm, play, and food. They make your day smoother and your body happier.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "Which drink is the best helper?",
+        "type": "mcq",
+        "options": [
+          "Soda",
+          "Water",
+          "Juice with lots of sugar",
+          "Energy drink"
+        ],
+        "answer": 2,
+        "rational": "Water is the best helper for your body."
+      },
+      {
+        "question": "What helper gets your body ready for the day?",
+        "type": "mcq",
+        "options": [
+          "Watching TV late",
+          "Skipping sleep",
+          "Getting a full night’s rest",
+          "Playing loud music"
+        ],
+        "answer": 3,
+        "rational": "A full night’s rest prepares your body for the day."
+      },
+      {
+        "question": "Which helper calms your mind?",
+        "type": "mcq",
+        "options": [
+          "Taking calm breaths",
+          "Skipping meals",
+          "Shouting loudly",
+          "Running around"
+        ],
+        "answer": 1,
+        "rational": "Calm breaths help your mind feel steady."
+      },
+      {
+        "question": "What playful helper makes exercise fun?",
+        "type": "mcq",
+        "options": [
+          "Jump rope",
+          "Lying still",
+          "Ignoring movement",
+          "Staring at the wall"
+        ],
+        "answer": 1,
+        "rational": "Jump rope is a playful way to move."
+      },
+      {
+        "question": "Which food helper is mindful?",
+        "type": "mcq",
+        "options": [
+          "Stopping when full",
+          "Always eating snacks",
+          "Ignoring hunger",
+          "Eating too fast"
+        ],
+        "answer": 1,
+        "rational": "Stopping when full is mindful eating."
+      }
+    ],
+    "keyTakeaways": "• Helpers are water, sleep, calm, play, and food. • Small helpers add up to a healthy day.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great—you know the helpers that keep you well!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try using one new helper today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good start—pick one helper like water or rest."
+      }
+    }
+  },
+  {
+    "number": 17,
+    "name": "Energy Boost Habits",
+    "description": "Practice habits that give your body more energy.",
+    "lessonText": "Energy boosters are water, rest, calm, play, and food. When you use them, your body feels ready to go!",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What drink boosts your energy best?",
+        "type": "mcq",
+        "options": [
+          "Milkshake",
+          "Soda",
+          "Water",
+          "Energy drink"
+        ],
+        "answer": 3,
+        "rational": "Water boosts your body without sugar crashes."
+      },
+      {
+        "question": "What habit keeps you awake in school?",
+        "type": "mcq",
+        "options": [
+          "Skipping bedtime",
+          "Playing video games late",
+          "Going to sleep early",
+          "Staying up with TV"
+        ],
+        "answer": 3,
+        "rational": "Early sleep keeps you awake in school."
+      },
+      {
+        "question": "What can calm your body when nervous?",
+        "type": "mcq",
+        "options": [
+          "Holding your breath",
+          "Taking slow breaths",
+          "Shouting loudly",
+          "Skipping lunch"
+        ],
+        "answer": 2,
+        "rational": "Slow breaths calm your body when nervous."
+      },
+      {
+        "question": "Which playful habit wakes up your muscles?",
+        "type": "mcq",
+        "options": [
+          "Hopscotch",
+          "Lying frozen",
+          "Ignoring friends",
+          "Sitting still"
+        ],
+        "answer": 1,
+        "rational": "Hopscotch is a playful habit that wakes you up."
+      },
+      {
+        "question": "What eating habit helps your energy?",
+        "type": "mcq",
+        "options": [
+          "Eating when hungry",
+          "Skipping meals",
+          "Eating too fast",
+          "Always eating candy"
+        ],
+        "answer": 1,
+        "rational": "Eating when hungry keeps your energy steady."
+      }
+    ],
+    "keyTakeaways": "• Energy comes from water, sleep, calm, play, and food. • Using boosters helps you stay active and alert.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great—you know the habits that boost energy!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try one booster today like sleep or water."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good try—begin with one sip of water."
+      }
+    }
+  },
+  {
+    "number": 18,
+    "name": "Wellness Balance",
+    "description": "See how balance keeps your body steady.",
+    "lessonText": "Balance is mixing water, sleep, calm, play, and food. When all are included, your body feels steady and strong.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "If you’re thirsty, what balances your body?",
+        "type": "mcq",
+        "options": [
+          "Soda",
+          "Energy drink",
+          "Water",
+          "Skipping a drink"
+        ],
+        "answer": 3,
+        "rational": "Water balances your body when thirsty."
+      },
+      {
+        "question": "What balances your body at night?",
+        "type": "mcq",
+        "options": [
+          "Skipping sleep",
+          "Good sleep",
+          "Loud music",
+          "Watching TV late"
+        ],
+        "answer": 2,
+        "rational": "Good sleep balances your body."
+      },
+      {
+        "question": "Which balances your mind?",
+        "type": "mcq",
+        "options": [
+          "Calm breaths",
+          "Shouting",
+          "Skipping meals",
+          "Running wildly"
+        ],
+        "answer": 1,
+        "rational": "Calm breaths bring balance to your mind."
+      },
+      {
+        "question": "Which is balanced movement?",
+        "type": "mcq",
+        "options": [
+          "Soccer with friends",
+          "Lying still",
+          "Ignoring play",
+          "Sitting frozen"
+        ],
+        "answer": 1,
+        "rational": "Soccer with friends is balanced movement."
+      },
+      {
+        "question": "What eating choice shows balance?",
+        "type": "mcq",
+        "options": [
+          "Stopping when full",
+          "Always eating candy",
+          "Ignoring hunger",
+          "Eating super fast"
+        ],
+        "answer": 1,
+        "rational": "Stopping when full shows eating balance."
+      }
+    ],
+    "keyTakeaways": "• Balance means mixing all five helpers. • Balance helps your body and mind feel steady.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great—you know how to balance your wellness!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try adding one more balance step today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good start—begin with one balance helper like water."
+      }
+    }
+  },
+  {
+    "number": 19,
+    "name": "Wellness Steps",
+    "description": "Practice taking small steps for wellness each day.",
+    "lessonText": "Small steps like water, rest, calm, play, and eating mindfully make a big difference. Each step adds up to stronger wellness.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What small step helps thirst?",
+        "type": "mcq",
+        "options": [
+          "Ignore it",
+          "Take a sip of water",
+          "Eat candy",
+          "Stay thirsty"
+        ],
+        "answer": 2,
+        "rational": "Sips of water help thirst."
+      },
+      {
+        "question": "What small step helps sleep?",
+        "type": "mcq",
+        "options": [
+          "Turn off screens before bed",
+          "Watch TV late",
+          "Skip bedtime",
+          "Stay up with games"
+        ],
+        "answer": 1,
+        "rational": "Turning off screens helps with sleep."
+      },
+      {
+        "question": "What small step helps calm?",
+        "type": "mcq",
+        "options": [
+          "Counting breaths",
+          "Shouting",
+          "Running faster",
+          "Skipping meals"
+        ],
+        "answer": 1,
+        "rational": "Counting breaths is a calm step."
+      },
+      {
+        "question": "What small step helps play?",
+        "type": "mcq",
+        "options": [
+          "Dance to music",
+          "Sit frozen",
+          "Ignore playtime",
+          "Lie still"
+        ],
+        "answer": 1,
+        "rational": "Dancing is a playful wellness step."
+      },
+      {
+        "question": "What small step helps eating?",
+        "type": "mcq",
+        "options": [
+          "Stop when full",
+          "Ignore fullness",
+          "Eat candy all day",
+          "Eat super fast"
+        ],
+        "answer": 1,
+        "rational": "Stopping when full helps mindful eating."
+      }
+    ],
+    "keyTakeaways": "• Small steps add up to big wellness. • Water, sleep, calm, play, and food are your daily steps.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great—you know the small steps for wellness!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try one small step today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good start—begin with one small wellness step."
+      }
+    }
+  },
+  {
+    "number": 20,
+    "name": "Daily Energy",
+    "description": "Learn how to keep your energy steady every day.",
+    "lessonText": "Energy comes from good choices like water, sleep, calm, play, and eating when hungry. These steps keep you going all day.",
+    "quest": "WellnessQuest",
+    "language": "en",
+    "forRole": "child",
+    "minAge": 6,
+    "maxAge": 12,
+    "xp_total": 50,
+    "coins_per_correct": 10,
+    "lesson_url_en": "",
+    "lesson_url_es": "",
+    "questions": [
+      {
+        "question": "What drink keeps your energy steady?",
+        "type": "mcq",
+        "options": [
+          "Soda",
+          "Water",
+          "Energy drink",
+          "Candy juice"
+        ],
+        "answer": 2,
+        "rational": "Water keeps energy steady."
+      },
+      {
+        "question": "What sleep habit gives daily energy?",
+        "type": "mcq",
+        "options": [
+          "Good night’s rest",
+          "Skipping bedtime",
+          "TV all night",
+          "Games all night"
+        ],
+        "answer": 1,
+        "rational": "Good sleep gives daily energy."
+      },
+      {
+        "question": "What calms your mind during school?",
+        "type": "mcq",
+        "options": [
+          "Skipping meals",
+          "Breathing slowly",
+          "Shouting loudly",
+          "Running around"
+        ],
+        "answer": 2,
+        "rational": "Slow breathing calms your mind."
+      },
+      {
+        "question": "Which playful move boosts energy?",
+        "type": "mcq",
+        "options": [
+          "Hopscotch",
+          "Ignore movement",
+          "Sit still all day",
+          "Lie frozen"
+        ],
+        "answer": 1,
+        "rational": "Hopscotch boosts your energy."
+      },
+      {
+        "question": "What eating habit helps daily energy?",
+        "type": "mcq",
+        "options": [
+          "Eat when hungry",
+          "Skip meals",
+          "Eat candy all day",
+          "Eat too fast"
+        ],
+        "answer": 1,
+        "rational": "Eating when hungry keeps energy steady."
+      }
+    ],
+    "keyTakeaways": "• Daily energy comes from good choices. • Water, sleep, calm, play, and food keep you going strong.",
+    "feedback": {
+      "high_score": {
+        "threshold": 5,
+        "message": "Great—you know how to keep daily energy!"
+      },
+      "medium_score": {
+        "threshold": 3,
+        "message": "Nice—try one daily energy choice today."
+      },
+      "low_score": {
+        "threshold": 0,
+        "message": "Good start—pick one daily energy step like water."
+      }
+    }
+  }
+]
